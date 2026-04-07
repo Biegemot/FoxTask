@@ -23,23 +23,18 @@ jobs:
     - name: Setup Android SDK
       uses: android-actions/setup-android@v2
       
-    - name: Clear Gradle cache
-      run: |
-        gradle --stop || true
-        rm -rf ~/.gradle/caches/
-         
     - name: Install Gradle
       run: |
-        wget -q https://services.gradle.org/distributions/gradle-8.11.1-bin.zip -O /tmp/gradle.zip
+        wget -q https://services.gradle.org/distributions/gradle-8.13-bin.zip -O /tmp/gradle.zip
         unzip -q /tmp/gradle.zip -d /tmp
-        echo "/tmp/gradle-8.11.1/bin" >> $GITHUB_PATH
-         
+        echo "/tmp/gradle-8.13/bin" >> $GITHUB_PATH
+          
     - name: Clean project
       run: gradle clean
-       
+     
     - name: Build Debug APK
       run: gradle --no-build-cache assembleDebug
-      
+     
     - name: Run unit tests
       run: gradle test
       

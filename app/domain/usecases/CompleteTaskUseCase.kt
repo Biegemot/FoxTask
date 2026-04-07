@@ -20,16 +20,7 @@ class CompleteTaskUseCase(
             priority = task.priority,
             streak = task.streak
         )
-        val coins = if (task.isHabit) {
-            // For habits, calculate coin reward similar to XP
-            var coinReward = if (task.isHabit) 5 else 5
-            if (task.isHabit && task.streak >= 7) {
-                coinReward = (coinReward * 1.5).toInt()
-            }
-            coinReward
-        } else {
-            task.coinReward
-        }
+        val coins = task.coinReward
 
         // Помечаем задачу выполненной
         repository.setTaskCompleted(taskId, true)
