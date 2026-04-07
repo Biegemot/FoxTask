@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Orange fox theme) -->
+    <color name="primary">#FF8C42</color>
+    <color name="primary_dark">#E67325</color>
+    <color name="primary_light">#FFB366</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#FFB366</color>
+    <color name="secondary_dark">#FFA04D</color>
+    <color name="secondary_light">#FFC57A</color>
+
+    <!-- Background Colors (Dark theme default) -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_variant_dark">#2D2D2D</color>
+
+    <!-- Background Colors (Light theme) -->
+    <color name="background_light">#FFF8F3</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant_light">#F5F5F5</color>
+
+    <!-- Text Colors -->
+    <color name="on_surface_dark">#FFFFFF</color>
+    <color name="on_surface_light">#2D2D2D</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#2D2D2D</color>
+
+    <!-- XP Bar Colors -->
+    <color name="xp_progress">#4CAF50</color>
+    <color name="xp_background">#333333</color>
+
+    <!-- Tier Colors -->
+    <color name="tier_common">#9E9E9E</color>
+    <color name="tier_rare">#2196F3</color>
+    <color name="tier_epic">#9C27B0</color>
+
+    <!-- Priority Colors -->
+    <color name="priority_low">#4CAF50</color>
+    <color name="priority_medium">#FF9800</color>
+    <color name="priority_high">#F44336</color>
+    <color name="priority_critical">#D32F2F</color>
+
+    <!-- Fox Colors -->
+    <color name="fox_base_orange">#FF8C42</color>
+    <color name="fox_base_white">#FFFFFF</color>
+    <color name="fox_base_red">#E53935</color>
+    <color name="fox_base_silver">#BDBDBD</color>
+</resources>

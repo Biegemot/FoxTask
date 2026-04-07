@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoxTask</string>
+    <string name="main_tab_main">Лис</string>
+    <string name="main_tab_tasks">Задачи</string>
+    <string name="main_tab_shop">Магазин</string>
+    <string name="main_tab_wardrobe">Гардероб</string>
+    <string name="main_tab_stats">Статистика</string>
+    <string name="level">Уровень</string>
+    <string name="xp">XP</string>
+    <string name="coins">Монеты</string>
+    <string name="add_task">Добавить задачу</string>
+    <string name="task_title_hint">Название задачи</string>
+    <string name="task_description_hint">Описание (необязательно)</string>
+    <string name="priority">Приоритет</string>
+    <string name="due_date">Срок</string>
+    <string name="reminder">Напоминание</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="complete">Выполнить</string>
+    <string name="shop">Магазин</string>
+    <string name="wardrobe">Гардероб</string>
+    <string name="stats">Статистика</string>
+    <string name="equipped">Надеты</string>
+    <string name="not_equipped">Не надеты</string>
+    <string name="buy">Купить</string>
+    <string name="equip">Надеть</string>
+    <string name="unequip">Снять</string>
+    <string name="insufficient_funds">Недостаточно монет</string>
+    <string name="level_up">Новый уровень!</string>
+    <string name="streak">Стрик</string>
+    <string name="habits">Привычки</string>
+    <string name="tasks">Задачи</string>
+    <string name="no_tasks">Нет задач</string>
+    <string name="no_habits">Нет привычек</string>
+    <string name="settings">Настройки</string>
+    <string name="notification_sound">Звук уведомлений</string>
+    <string name="notification_vibration">Вибрация</string>
+    <string name="language">Язык</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="about">О приложении</string>
+
+    <!-- Categories -->
+    <string name="category_hats">Головные уборы</string>
+    <string name="category_glasses">Очки и маски</string>
+    <string name="category_scarves">Шарфы и банданы</string>
+    <string name="category_cloaks">Накидки и плащи</string>
+    <string name="category_fur_colors">Цвета меха</string>
+    <string name="category_backgrounds">Фоновые темы</string>
+    <string name="category_maori">Маори-паттерны</string>
+
+    <!-- Tiers -->
+    <string name="tier_common">Обычный</string>
+    <string name="tier_rare">Редкий</string>
+    <string name="tier_epic">Эпический</string>
+
+    <!-- Priorities -->
+    <string name="priority_low">Низкий</string>
+    <string name="priority_medium">Средний</string>
+    <string name="priority_high">Высокий</string>
+    <string name="priority_critical">Критический</string>
+</resources>

@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="50dp"
+    android:viewportWidth="120"
+    android:viewportHeight="50">
+    <path
+        android:fillColor="#212121"
+        android:pathData="M20,15 L50,15 C50,15 50,0 70,0 C90,0 90,15 100,15" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M100,15 L105,15 L105,20 L100,20 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M20,15 L15,15 L15,20 L20,20 Z" />
+    <!-- Циплокерные бортовые substructure -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M40,12 L80,12 L80,18 L40,18 Z" />
+</vector>
