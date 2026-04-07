@@ -4,12 +4,6 @@ plugins {
     id("kotlin-kapt")
 }
 
-repositories {
-    google()
-    mavenCentral()
-    maven("https://jitpack.io")  // для Vico, если не в Maven Central
-}
-
 android {
     namespace = "com.foxtask.app"
     compileSdk = 35
