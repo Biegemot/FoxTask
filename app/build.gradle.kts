@@ -4,6 +4,12 @@ plugins {
     id("kotlin-kapt")
 }
 
+repositories {
+    google()
+    mavenCentral()
+    maven("https://jitpack.io")  // для Vico, если не в Maven Central
+}
+
 android {
     namespace = "com.foxtask.app"
     compileSdk = 35
@@ -76,8 +82,8 @@ dependencies {
     implementation("com.airbnb.android:lottie-compose:6.4.0")
 
     // Vico (charts)
-    implementation("com.patrykandpatrick.vico:vico-compose:1.13.0")
-    implementation("com.patrykandpatrick.vico:vico-ktx:1.13.0")
+    implementation("com.patrykandpatrick:vico-compose:1.13.0")
+    implementation("com.patrykandpatrick:vico-ktx:1.13.0")
 
     // Testing
     testImplementation("junit:junit:4.13.2")
