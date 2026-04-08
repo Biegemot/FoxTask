@@ -5,6 +5,12 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.foxtask.app.data.local.Converters
+import com.foxtask.app.data.local.entities.HabitProgress
+import com.foxtask.app.data.local.entities.Inventory
+import com.foxtask.app.data.local.entities.Item
+import com.foxtask.app.data.local.entities.Outfit
+import com.foxtask.app.data.local.entities.Task
+import com.foxtask.app.data.local.entities.User
 
 @Database(
     entities = [
