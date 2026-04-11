@@ -176,6 +176,7 @@ private fun getPriorityLabel(priority: Int): String {
     }
 }
 
+@Composable
 private fun getPriorityColor(priority: Int): Color {
     return when (priority) {
         1 -> PriorityMinimal
