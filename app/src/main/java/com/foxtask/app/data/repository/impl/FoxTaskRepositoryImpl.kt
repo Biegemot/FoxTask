@@ -68,7 +68,7 @@ class FoxTaskRepositoryImpl(
         inventoryDao.getEquippedItems(userId)
     override suspend fun getInventoryItem(userId: Int, itemId: Int): Inventory? =
         inventoryDao.getInventoryItem(userId, itemId)
-    override suspend fun getInventoryWithItems(userId: Int): List<InventoryDao.InventoryWithItem> =
+    override suspend fun getInventoryWithItems(userId: Int): List<InventoryWithItem> =
         inventoryDao.getInventoryWithItems(userId)
     override suspend fun insertInventoryItem(inventory: Inventory) =
         inventoryDao.insertInventoryItem(inventory)
