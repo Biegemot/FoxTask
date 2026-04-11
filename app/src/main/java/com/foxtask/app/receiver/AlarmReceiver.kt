@@ -37,9 +37,7 @@ class AlarmReceiver : BroadcastReceiver() {
                 NotificationHelper.showReminder(
                     context = context,
                     taskId = taskId,
-                    taskTitle = title,
-                    soundEnabled = true,
-                    vibrateEnabled = true
+                    title = title
                 )
                 
                 // Reschedule for next day if task still has reminder enabled
