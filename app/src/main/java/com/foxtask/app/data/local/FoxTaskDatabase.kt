@@ -28,9 +28,9 @@ import com.foxtask.app.data.local.entities.User
         HabitProgress::class
     ],
     version = 3,
-    exportSchema = false,
-    typeConverters = [Converters::class]
+    exportSchema = false
 )
+@androidx.room.TypeConverters(Converters::class)
 abstract class FoxTaskDatabase : RoomDatabase() {
     abstract fun userDao(): UserDao
     abstract fun itemDao(): ItemDao
