@@ -20,10 +20,11 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import com.foxtask.app.domain.models.Statistics
 import com.foxtask.app.presentation.viewmodel.StatsViewModel
+import com.patrykandpatrick.vico.compose.cartesian.CartesianChartHost
 import com.patrykandpatrick.vico.compose.cartesian.axis.rememberBottomAxis
 import com.patrykandpatrick.vico.compose.cartesian.axis.rememberStartAxis
-import com.patrykandpatrick.vico.compose.cartesian.CartesianChartHost
-import com.patrykandpatrick.vico.compose.cartesian.layer.rememberBarCartesianLayer
+import com.patrykandpatrick.vico.compose.cartesian.layer.rememberColumnCartesianLayer
+import com.patrykandpatrick.vico.compose.cartesian.rememberCartesianChart
 import com.patrykandpatrick.vico.compose.common.ProvideVicoTheme
 import com.patrykandpatrick.vico.core.cartesian.data.CartesianChartModelProducer
 import com.patrykandpatrick.vico.core.cartesian.data.columnSeries
@@ -187,7 +188,9 @@ fun CompletionRateCard(stats: Statistics) {
 
             ProvideVicoTheme(rememberM3VicoTheme()) {
                 CartesianChartHost(
-                    chart = rememberBarCartesianLayer(),
+                    chart = rememberCartesianChart(
+                        rememberColumnCartesianLayer()
+                    ),
                     modelProducer = modelProducer,
                     modifier = Modifier
                         .fillMaxWidth()
